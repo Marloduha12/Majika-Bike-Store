@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Majika Bike Store</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <link rel="icon" href="./assets/image/icon1.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+  <body>
+    <!-- Loading Screen Section-->
+    <div id="loading" class="loading-overlay">
+      <div class="leaf"></div>
+      <div class="leaf"></div>
+      <div class="leaf"></div>
+    </div>
+
+    <!-- Navigation Section-->
+    <div class="container">
+      <header>
+        <nav>
+          <div class="nav-title">
+            <h3 class="main-nav-title">MAJIKA</h3>
+            <p class="sub-nav-title"><span>BIKE</span> - STORE</p>
+          </div>
+          <ul>
+            <li>
+              <a href="#home" class="active">Home</a>
+            </li>
+            <li>
+              <a href="#about">About Us</a>
+            </li>
+            <li>
+              <a href="#product">Products</a>
+            </li>
+            <li>
+              <a href="#contact">Contact Us</a>
+            </li>
+          </ul>
+          <div class="chat">
+            <a href="https://wa.me/6281393784712" target="_blank">
+              <button class="btn-chat">
+                <p>FAQ</p>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-whatsapp"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"
+                  />
+                </svg>
+              </button>
+            </a>
+          </div>
+        </nav>
+      </header>
+
+      <!-- Main Content Section-->
+      <section class="content" id="home">
+        <div class="content-container">
+          <div class="title">
+            <div class="main-title">
+              <h1>We have</h1>
+              <p class="animate-text">
+                <span>Mountain Bike</span>
+                <span>Road Bike</span>
+                <span>Folding Bike</span>
+                <span>Touring Bike</span>
+                <span>Racing Bike</span>
+                <span>Fixed Gear</span>
+                <span>Trike Bike</span>
+              </p>
+            </div>
+          </div>
+          <p>
+            "Transforming Every Pedal into an Experience: Modern Bikes for All
+            Terrains"
+          </p>
+          <h2>Special Offer!</h2>
+          <h3>40% off</h3>
+          <br />
+          <button class="our-btn">
+            <span>Shop Now</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="800px"
+              height="800px"
+              viewBox="0 0 24 24"
+              fill="none"
+            >
+              <path
+                d="M6.29977 5H21L19 12H7.37671M20 16H8L6 3H3M9 20C9 20.5523 8.55228 21 8 21C7.44772 21 7 20.5523 7 20C7 19.4477 7.44772 19 8 19C8.55228 19 9 19.4477 9 20ZM20 20C20 20.5523 19.5523 21 19 21C18.4477 21 18 20.5523 18 20C18 19.4477 18.4477 19 19 19C19.5523 19 20 19.4477 20 20Z"
+                stroke="#1F1A1C"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </button>
+        </div>
+      </section>
+
+      <!-- About Us Section-->
+      <section class="about" id="about">
+        <h2 class="about-title">About Us</h2>
+        <div class="about-container">
+          <div class="card">
+            <div class="card-details">
+              <img src="./assets/image/img2.png" alt="Affordable" />
+              <p class="text-title">Affordable</p>
+              <p class="text-body">
+                Our products ensure guaranteed quality without compromise,
+                combined with pocket-friendly prices, ensuring you get maximum
+                benefits with efficient spending.
+              </p>
+            </div>
+            <button class="card-button">More info</button>
+          </div>
+          <div class="card">
+            <div class="card-details">
+              <img src="./assets/image/img3.png" alt="Innovation" />
+              <p class="text-title">Innovation</p>
+              <p class="text-body">
+                We continuously innovate in developing our products. Through
+                these efforts, we are committed to supporting and meeting all
+                your cycling needs, ensuring your biking experience is more
+                comfortable, safe, and enjoyable.
+              </p>
+            </div>
+            <button class="card-button">More info</button>
+          </div>
+          <div class="card">
+            <div class="card-details">
+              <img src="./assets/image/img4.png" alt="Professional Team" />
+              <p class="text-title">Professional Team</p>
+              <p class="text-body">
+                At TOP Bike, from the production process to delivering our
+                products to your hands, our team consists of dedicated
+                individuals carefully selected for their expertise in their
+                respective fields. We ensure that each team member is a
+                dedicated professional committed to delivering the highest
+                quality and excellent service.
+              </p>
+            </div>
+            <button class="card-button">More info</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Advertising Section 1-->
+      <section class="adsOne" id="adsOne">
+        <div class="adsOne-container">
+          <h1>
+            Embark on Your Adventure with Every Pedal: Explore the Widest Range
+            of Bikes for Every Style and Terrain, Ensuring Quality and
+            Affordability, Only on Our Website.
+          </h1>
+        </div>
+      </section>
+
+      <!-- Advertising Section 2-->
+      <section class="adsTwo" id="adsTwo">
+        <div class="adsTwo-container">
+          <div class="adscontent">
+            <h2>Benefits</h2>
+            <ul>
+              <li>Global Accessibility: Accessible to customers worldwide.</li>
+              <li>
+                Online Marketing: Enables effective digital marketing through
+                SEO, online advertising, and social media.
+              </li>
+              <li>
+                24/7 Sales: Shop anytime, without restrictions on operating
+                hours.
+              </li>
+              <li>
+                Analytics and Reporting: Analytical data to enhance sales
+                strategies.
+              </li>
+              <li>
+                Transaction Security: Secure and trustworthy online
+                transactions.
+              </li>
+            </ul>
+          </div>
+          <div class="adscontent">
+            <video controls poster="./assets/image/img7.png">
+              <source src="/assets/video/video.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+      </section>
+
+      <!-- Product Section-->
+      <section class="product" id="product">
+        <h2 class="product-title">Our Product</h2>
+        <div class="product-container">
+          <div class="card-p">
+            <div class="product-desc">
+              <h3 class="product-name">Stratos S</h3>
+              <h4 class="product-text">
+                YOUR GATEWAY TO A WHOLE NEW DIMENSION OF FUN
+              </h4>
+              <p class="product-description">
+                All-rounder road bike built with a UCI approved ACX frame that
+                is astonishingly responsive, smooth, and fast
+              </p>
+              <button class="product-button">Show More</button>
+            </div>
+            <div class="product-image">
+              <h1 class="sale-tag">10 % Off</h1>
+              <img src="./assets/image/img5.png" alt="Stratos S" />
+            </div>
+          </div>
+          <div class="card-p">
+            <div class="product-image">
+              <h1 class="sale-tag">25 % Off</h1>
+              <img src="./assets/image/img6.png" alt="Helios A" />
+            </div>
+            <div class="product-desc">
+              <h3 class="product-name">Helios A</h3>
+              <h4 class="product-text">IN THE RELENTLESS PURSUIT OF SPEED</h4>
+              <p class="product-description">
+                The all new performance road bike designed to cut through air
+                without leaving behind turbulence, thus achieving an
+                industry-leading level.
+              </p>
+              <button class="product-button">Show More</button>
+            </div>
+          </div>
+          <div class="card-p">
+            <div class="product-desc">
+              <h3 class="product-name">Zeta</h3>
+              <h4 class="product-text">
+                BORN FOR YOU WHO STRIVE FOR SIMPLICITY
+              </h4>
+              <p class="product-description">
+                Simple and stylish urban bicycle just for you commuters.
+              </p>
+              <button class="product-button">Show More</button>
+            </div>
+            <div class="product-image">
+              <h1 class="sale-tag">15 % Off</h1>
+              <img src="./assets/image/img9.png" alt="Stratos S" />
+            </div>
+          </div>
+          <div class="card-p">
+            <div class="product-image">
+              <h1 class="sale-tag">20 % Off</h1>
+              <img src="./assets/image/img10.png" alt="Helios A" />
+            </div>
+            <div class="product-desc">
+              <h3 class="product-name">Collosus Ne</h3>
+              <h4 class="product-text">RIDE FURTHER, FASTER, FUN LIKE NEVER BEFORE</h4>
+              <p class="product-description">
+                A full suspension E-MTB, built with our IFS Technology and excellent interface to really take you beyond.
+              </p>
+              <button class="product-button">Show More</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Us Section-->
+      <section class="contact" id="contact">
+        <h2 class="contact-title">Contact Us</h2>
+        <div class="contact-container">
+          <div class="card-c bg-img">
+            <div class="items">
+              <div class="cont">
+                <h6>PHONE :</h6>
+                <p>+62 813-9378-4712</p>
+              </div>
+            </div>
+            <div class="items">
+              <div class="cont">
+                <h6>ADDRESS :</h6>
+                <p>DI Yogyakarta</p>
+                <p>Sleman City</p>
+              </div>
+            </div>
+            <div class="items">
+              <div class="cont">
+                <h6>EMAIL :</h6>
+                <p>majikaofficial@dmail.us</p>
+                <p>majikastore22@yahaha.com</p>
+              </div>
+            </div>
+          </div>
+          <div class="card-c">
+            <form action="#">
+              <div class="identity-form">
+                <div class="identity">
+                  <label for="name">Your Name</label>
+                  <input
+                    type="text"
+                    class="item"
+                    id="name"
+                    name="name"
+                    autocomplete="off"
+                  />
+                  <div class="error-txt">*Name can't be blank</div>
+                </div>
+                <div class="identity">
+                  <label for="email">Your Email</label>
+                  <input
+                    type="email"
+                    class="item"
+                    id="email"
+                    name="email"
+                    autocomplete="off"
+                  />
+                  <div class="error-txt">*Email can't be blank</div>
+                </div>
+              </div>
+              <div class="message-form">
+                <label for="message">How Can We Help You?</label>
+                <textarea
+                  name="message"
+                  class="item"
+                  id="message"
+                  autocomplete="off"
+                ></textarea>
+                <div class="error-txt">*Message can't be blank</div>
+              </div>
+              <button type="submit" class="animated-button form-submit-btn">
+                <svg viewBox="0 0 24 24" class="arr-2" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+                  ></path>
+                </svg>
+                <span class="text">Send Message</span>
+                <span class="circle"></span>
+                <svg viewBox="0 0 24 24" class="arr-1" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+                  ></path>
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer Section -->
+      <footer class="footer">
+        <h3 class="footer-title">OUR SOCIAL MEDIA</h3>
+        <div class="social-btn">
+          <button>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="18"
+              height="18"
+              fill="currentColor"
+              class="bi bi-facebook"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"
+              />
+            </svg>
+          </button>
+          <button>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="18"
+              height="18"
+              fill="currentColor"
+              class="bi bi-twitter-x"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"
+              />
+            </svg>
+          </button>
+            <button>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="18"
+                fill="currentColor"
+                class="bi bi-instagram"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"
+                />
+              </svg>
+            </button>
+          </a>
+        </div>
+        <h4>
+          COPYRIGHT © 2024 Malik & Aji. All Rights Reserved.
+          <a href="https://github.com/Marloduha12" target="_blank"
+            ><span>DESIGN BY M Creation</span>
+          </a>
+        </h4>
+      </footer>
+    </div>
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./src/script.js"></script>
+  </body>
+</html>
